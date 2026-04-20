@@ -1,1 +1,73 @@
+📌 Loan Approval Predictor (Streamlit + ML)
 
+A simple Machine Learning web app built with Streamlit that predicts whether a loan will be approved or rejected based on applicant financial details.
+
+🚀 Live Demo
+
+(Add later if you deploy on Streamlit Cloud)
+https://your-app-link.streamlit.app
+
+📊 Features
+💳 Loan approval prediction (ML model)
+📈 Uses financial & credit features
+⚡ Real-time prediction via Streamlit UI
+📉 Risk-based decision output
+🧠 Trained on structured loan dataset
+📊 Clean and user-friendly interface with input guidelines
+🧠 Input Features Used
+Applicant Income
+Coapplicant Income
+Age
+Dependents
+Credit Score
+Existing Loans
+DTI Ratio
+Savings
+Collateral Value
+Loan Amount
+Loan Term
+📁 Project Structure
+Loan-Predictor/
+│
+├── app.py                # Streamlit app
+├── model.pkl             # Trained ML model
+├── scaler.pkl            # Feature scaler
+├── columns.pkl           # Training columns
+├── requirements.txt      # Dependencies
+└── README.md             # Project documentation
+⚙️ Installation
+1️⃣ Clone repo
+git clone https://github.com/your-username/loan-predictor.git
+cd loan-predictor
+2️⃣ Install dependencies
+pip install -r requirements.txt
+3️⃣ Run app
+streamlit run app.py
+🚀 How It Works
+User enters financial details
+Data is preprocessed (encoding + scaling)
+ML model predicts approval/rejection
+Result is displayed instantly in UI
+⚠️ Dataset Guidelines
+
+Use realistic values:
+
+Income: 2000 – 20000
+Credit Score: 550 – 799
+Loan Amount: 1000 – 40000
+DTI Ratio: 0.1 – 0.6
+🧠 Tech Stack
+Python 🐍
+Pandas & NumPy
+Scikit-learn
+Streamlit
+Joblib
+📌 Future Improvements
+Add probability score (% approval chance)
+Improve model accuracy (XGBoost / RF tuning)
+Add authentication system
+Deploy on Streamlit Cloud / Render
+Add analytics dashboard
+👨‍💻 Author
+KHUSHWANT SINGH RAJAT
+Khushwant Singh Rajat
